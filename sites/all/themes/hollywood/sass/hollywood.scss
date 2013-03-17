@@ -102,15 +102,16 @@ width: 33.33333%;
 float: left;
 }
 
+
 #footer {
 	background:#222;
 	color:#fff;
 	font-size:14px;
 	padding:10px;
 	.block {
-		float:left;
 		margin-bottom:0;
-		width:33.33333%;
+		padding-top:0.625em;
+		padding-bottom:0.625em;
 	}
 	h2 {
 		font-size:18px;
@@ -118,27 +119,40 @@ float: left;
 }
 
 .footer-left {
-	padding-right:3%;
 	ul {
 		padding:0;
 		li {
 			list-style:none;
 		}
-	}
-	a {
-		color:#fff;
-	}
-	a:hover {
-		color:#c20000;
+		a {
+			color:#fff;
+		}
+		a:hover {
+			color:#c20000;
+		}
 	}
 }
 
-.footer-right {
-	padding-left:3%;
-	img {
-		margin-right:10px;
-		height:30px;
-		width:30px;
+.social-icons {
+	padding:0;
+	li {
+		float:left;
+		list-style:none;
+		a {
+			display:inline-block;
+			margin-right:10px;
+			height:35px;
+			width:31px;
+		}
+		.youtube {
+			background:url(../images/yt.png);
+		}
+		.facebook {
+			background:url(../images/f.png);
+		}
+		.twitter {
+			background:url(../images/t.png);
+		}
 	}
 }
 
