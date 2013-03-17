@@ -261,13 +261,14 @@ header a:first-child {
 /* line 83, ../sass/hollywood.scss */
 .slide-desc {
   width: 40%;
-  padding: 0.625em 1.250em;
+  padding: 0.625em 1.25em;
   background: rgba(194, 0, 0, 0.6);
   position: absolute;
   top: 50px;
+  color: #fff;
 }
 
-/* line 92, ../sass/hollywood.scss */
+/* line 93, ../sass/hollywood.scss */
 h1 {
   text-indent: -119988px;
   overflow: hidden;
@@ -275,8 +276,64 @@ h1 {
 }
 
 /*Overwrite*/
-/* line 98, ../sass/hollywood.scss */
+/* line 99, ../sass/hollywood.scss */
 .grid-wide-4 {
   width: 33.33333%;
   float: left;
+}
+
+/* line 105, ../sass/hollywood.scss */
+#footer {
+  background: #222;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+}
+/* line 110, ../sass/hollywood.scss */
+#footer .block {
+  float: left;
+  margin-bottom: 0;
+  width: 33.33333%;
+}
+/* line 115, ../sass/hollywood.scss */
+#footer h2 {
+  font-size: 18px;
+}
+
+/* line 120, ../sass/hollywood.scss */
+.footer-left {
+  padding-right: 3%;
+}
+/* line 122, ../sass/hollywood.scss */
+.footer-left ul {
+  padding: 0;
+}
+/* line 124, ../sass/hollywood.scss */
+.footer-left ul li {
+  list-style: none;
+}
+/* line 128, ../sass/hollywood.scss */
+.footer-left a {
+  color: #fff;
+}
+/* line 131, ../sass/hollywood.scss */
+.footer-left a:hover {
+  color: #c20000;
+}
+
+/* line 136, ../sass/hollywood.scss */
+.footer-right {
+  padding-left: 3%;
+}
+/* line 138, ../sass/hollywood.scss */
+.footer-right img {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+}
+
+/* line 145, ../sass/hollywood.scss */
+.footer-mid p {
+  line-height: 1.3em;
+  margin-bottom: 1em;
 }

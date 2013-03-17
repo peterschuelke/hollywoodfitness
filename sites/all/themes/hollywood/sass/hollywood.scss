@@ -86,6 +86,7 @@ header{
 	@include background(rgba($red,0.6));
 	position:absolute;
 	top:50px;
+	color:#fff;
 }
 
 
@@ -99,4 +100,49 @@ h1{
 width: 33.33333%;
 //padding: 0 0em;
 float: left;
+}
+
+#footer {
+	background:#222;
+	color:#fff;
+	font-size:14px;
+	padding:10px;
+	.block {
+		float:left;
+		margin-bottom:0;
+		width:33.33333%;
+	}
+	h2 {
+		font-size:18px;
+	}
+}
+
+.footer-left {
+	padding-right:3%;
+	ul {
+		padding:0;
+		li {
+			list-style:none;
+		}
+	}
+	a {
+		color:#fff;
+	}
+	a:hover {
+		color:#c20000;
+	}
+}
+
+.footer-right {
+	padding-left:3%;
+	img {
+		margin-right:10px;
+		height:30px;
+		width:30px;
+	}
+}
+
+.footer-mid p {
+	line-height:1.3em;
+	margin-bottom:1em;
 }
