@@ -1,11 +1,19 @@
 /*Mixins Variables ETC*/
+/* sets all box widths to the size declared. Border and padding DO NOT expand the size but squish the content.*/
 /* line 7, ../sass/_grid-layout.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../sass/_grid-layout.scss */
 body {
   font-size: 16px;
 }
 
 @media screen and (max-width: 30em) {
-  /* line 43, ../sass/_grid-layout.scss */
+  /* line 46, ../sass/_grid-layout.scss */
   .region {
     max-width: 480px;
     margin: 0 auto;
@@ -16,14 +24,14 @@ body {
     padding-left: 0;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-small-1 {
     width: 50%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-small-2 {
     width: 100%;
     padding: 0 0.625em;
@@ -31,7 +39,7 @@ body {
   }
 }
 @media screen and (min-width: 30.0625em) and (max-width: 52.5em) {
-  /* line 54, ../sass/_grid-layout.scss */
+  /* line 57, ../sass/_grid-layout.scss */
   .region {
     max-width: 840px;
     margin: 0 auto;
@@ -39,42 +47,42 @@ body {
     z-index: 1;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-medium-1 {
     width: 16.66667%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-medium-2 {
     width: 33.33333%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-medium-3 {
     width: 50%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-medium-4 {
     width: 66.66667%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-medium-5 {
     width: 83.33333%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-medium-6 {
     width: 100%;
     padding: 0 0.625em;
@@ -82,7 +90,7 @@ body {
   }
 }
 @media screen and (min-width: 52.5625em) {
-  /* line 62, ../sass/_grid-layout.scss */
+  /* line 65, ../sass/_grid-layout.scss */
   .region {
     max-width: 960px;
     margin: 0 auto;
@@ -90,84 +98,84 @@ body {
     z-index: 1;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-1 {
     width: 8.33333%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-2 {
     width: 16.66667%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-3 {
     width: 25%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-4 {
     width: 33.33333%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-5 {
     width: 41.66667%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-6 {
     width: 50%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-7 {
     width: 58.33333%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-8 {
     width: 66.66667%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-9 {
     width: 75%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-10 {
     width: 83.33333%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-11 {
     width: 91.66667%;
     padding: 0 0.625em;
     float: left;
   }
 
-  /* line 29, ../sass/_grid-layout.scss */
+  /* line 32, ../sass/_grid-layout.scss */
   .grid-wide-12 {
     width: 100%;
     padding: 0 0.625em;
@@ -270,6 +278,5 @@ h1 {
 /* line 98, ../sass/hollywood.scss */
 .grid-wide-4 {
   width: 33.33333%;
-  padding: 0 0em;
   float: left;
 }
