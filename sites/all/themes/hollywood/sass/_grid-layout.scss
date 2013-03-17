@@ -1,0 +1,54 @@
+@import "base";
+@import "mixins";
+@import "_variables.scss";
+@import "zen";
+
+@mixin content-width($width){
+  max-width:$width;
+  margin:0 auto;
+  position:relative;
+  z-index:1;
+}
+
+@mixin create_columns($name,$break, $column-count){
+  @for $i from 1 through $column-count {
+    .grid-#{$name}-#{$i} {
+      @include column-width($break, $i, $column-count);
+    }
+  }
+}
+
+@mixin column-width($break, $column, $column-count){
+  width:percentage((($break/$column-count*$column)/$break));
+  padding:0 calc-em($gutter/2, $em);
+  float:left;
+}
+
+//Small Screen
+@media screen and (max-width: calc-em($break-small, $em)) {
+  .region{
+    @include content-width($break-small);
+    min-width:320px;
+    padding-right:0;
+    padding-left:0;
+  }
+  @include create_columns('small',$break-small, $column-count-small);
+}
+
+//Medium Screen
+@media screen and (min-width: calc-em($break-small + 1px, $em)) and (max-width: calc-em($break-medium, $em)) {
+  .region{
+    @include content-width($break-medium);
+  }
+  @include create_columns('medium',$break-medium, $column-count-medium);
+}
+
+//Wide Screen
+@media screen and (min-width: calc-em($break-medium + 1px, $em)) {
+  .region{
+    @include content-width($break-wide);
+  }
+  @include create_columns('wide', $break-wide, $column-count-wide);
+}
+
+
