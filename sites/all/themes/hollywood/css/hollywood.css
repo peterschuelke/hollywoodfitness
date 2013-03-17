@@ -1,0 +1,275 @@
+/*Mixins Variables ETC*/
+/* line 7, ../sass/_grid-layout.scss */
+body {
+  font-size: 16px;
+}
+
+@media screen and (max-width: 30em) {
+  /* line 43, ../sass/_grid-layout.scss */
+  .region {
+    max-width: 480px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    min-width: 320px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-small-1 {
+    width: 50%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-small-2 {
+    width: 100%;
+    padding: 0 0.625em;
+    float: left;
+  }
+}
+@media screen and (min-width: 30.0625em) and (max-width: 52.5em) {
+  /* line 54, ../sass/_grid-layout.scss */
+  .region {
+    max-width: 840px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-medium-1 {
+    width: 16.66667%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-medium-2 {
+    width: 33.33333%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-medium-3 {
+    width: 50%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-medium-4 {
+    width: 66.66667%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-medium-5 {
+    width: 83.33333%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-medium-6 {
+    width: 100%;
+    padding: 0 0.625em;
+    float: left;
+  }
+}
+@media screen and (min-width: 52.5625em) {
+  /* line 62, ../sass/_grid-layout.scss */
+  .region {
+    max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-1 {
+    width: 8.33333%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-2 {
+    width: 16.66667%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-3 {
+    width: 25%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-4 {
+    width: 33.33333%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-5 {
+    width: 41.66667%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-6 {
+    width: 50%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-7 {
+    width: 58.33333%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-8 {
+    width: 66.66667%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-9 {
+    width: 75%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-10 {
+    width: 83.33333%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-11 {
+    width: 91.66667%;
+    padding: 0 0.625em;
+    float: left;
+  }
+
+  /* line 29, ../sass/_grid-layout.scss */
+  .grid-wide-12 {
+    width: 100%;
+    padding: 0 0.625em;
+    float: left;
+  }
+}
+/*end mixins variables*/
+/* line 15, ../sass/hollywood.scss */
+a {
+  color: #c20000;
+  text-decoration: none;
+}
+/* line 18, ../sass/hollywood.scss */
+a:hover {
+  color: #000;
+}
+
+/* line 23, ../sass/hollywood.scss */
+#page {
+  width: 960px;
+  margin: 0px auto;
+}
+
+/* line 28, ../sass/hollywood.scss */
+h2 {
+  font-size: 2.5em;
+  line-height: 1em;
+}
+
+/* line 34, ../sass/hollywood.scss */
+header {
+  font-size: 12px;
+}
+/* line 36, ../sass/hollywood.scss */
+header p {
+  float: right;
+}
+/* line 39, ../sass/hollywood.scss */
+header a {
+  font-weight: bold;
+  margin-left: 10px;
+}
+/* line 43, ../sass/hollywood.scss */
+header a:first-child {
+  margin-left: 20px;
+}
+
+/* line 48, ../sass/hollywood.scss */
+#navigation {
+  background-color: #222222;
+  height: 70px;
+  padding: 5px;
+}
+
+/* line 56, ../sass/hollywood.scss */
+#main-menu {
+  float: right;
+  margin-top: 1.250em;
+}
+/* line 61, ../sass/hollywood.scss */
+#main-menu a {
+  text-decoration: none;
+  color: #fff;
+}
+/* line 64, ../sass/hollywood.scss */
+#main-menu a:hover {
+  color: #c20000;
+}
+/* line 66, ../sass/hollywood.scss */
+#main-menu li {
+  margin-right: 10px;
+}
+
+/* line 72, ../sass/hollywood.scss */
+.region-hero {
+  width: 100%;
+  height: 27.750em;
+  margin-top: -2px;
+  background-image: url("../images/hero.png");
+  background-repeat: no-repeat;
+}
+
+/* line 83, ../sass/hollywood.scss */
+.slide-desc {
+  width: 40%;
+  padding: 0.625em 1.250em;
+  background: rgba(194, 0, 0, 0.6);
+  position: absolute;
+  top: 50px;
+}
+
+/* line 92, ../sass/hollywood.scss */
+h1 {
+  text-indent: -119988px;
+  overflow: hidden;
+  text-align: left;
+}
+
+/*Overwrite*/
+/* line 98, ../sass/hollywood.scss */
+.grid-wide-4 {
+  width: 33.33333%;
+  padding: 0 0em;
+  float: left;
+}

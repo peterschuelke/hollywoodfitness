@@ -1,7 +1,21 @@
-@import "base";
-@import "mixins";
-@import "_variables.scss";
-@import "zen";
+
+@function calc-em($target-px, $context) {
+ @return ($target-px / $context) * 1em;
+}
+
+$em:16px; //16px is browser default
+body{
+ font-size:$em;
+}
+
+$break-small:480px;
+$break-medium:840px;
+$break-wide:960px;
+
+$column-count-small:2;
+$column-count-medium:6;
+$column-count-wide:12;
+$gutter:20px;
 
 @mixin content-width($width){
   max-width:$width;
