@@ -10,19 +10,16 @@
 
 $red:#c20000;
 
+#page{
+	margin:0 auto;
+}
+
 /*end mixins variables*/
 
 a{
 	color:$red;
 	text-decoration:none;
 	&:hover{color:#000;}
-}
-
-
-
-#page{
-	width:960px;
-	margin:0px auto;
 }
 
 h2 {
@@ -92,11 +89,21 @@ header{
 h1{
 	@include hide-text();
 }
+.right-col{
+	float:right;
+}
 
-
-/*Overwrite*/
-.grid-wide-4 {
-width: 33.33333%;
-//padding: 0 0em;
-float: left;
+//if the block ever take the classes in the form, happily delete
+#block-block-12{
+	@extend .grid-wide-4;
+	@extend .grid-medium-6;
+	@extend .grid-small-2;
+}
+#block-views-blog-block{
+	padding:0;
+}
+.view-blog{
+	.grid-wide-12{
+		padding:0;
+	}
 }

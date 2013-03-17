@@ -43,7 +43,7 @@ $gutter:20px;
 
 //Small Screen
 @media screen and (max-width: calc-em($break-small, $em)) {
-  .region{
+  #page{
     @include content-width($break-small);
     min-width:320px;
     padding-right:0;
@@ -54,7 +54,7 @@ $gutter:20px;
 
 //Medium Screen
 @media screen and (min-width: calc-em($break-small + 1px, $em)) and (max-width: calc-em($break-medium, $em)) {
-  .region{
+  #page{
     @include content-width($break-medium);
   }
   @include create_columns('medium',$break-medium, $column-count-medium);
@@ -62,7 +62,7 @@ $gutter:20px;
 
 //Wide Screen
 @media screen and (min-width: calc-em($break-medium + 1px, $em)) {
-  .region{
+  #page{
     @include content-width($break-wide);
   }
   @include create_columns('wide', $break-wide, $column-count-wide);
