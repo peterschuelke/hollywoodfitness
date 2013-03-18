@@ -173,6 +173,16 @@ h1{
 
 }
 
+.categories, .archive { /*fake links*/
+	li {
+		color:$red;
+	}
+	li:hover {
+		color:#000;
+		text-decoration:underline;
+	}
+}
+
 
 
 

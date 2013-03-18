@@ -354,27 +354,41 @@ h1 {
   margin-top: 25%;
 }
 
-/* line 179, ../sass/hollywood.scss */
+/* line 176, ../sass/hollywood.scss */
+.categories, .archive {
+  /*fake links*/
+}
+/* line 177, ../sass/hollywood.scss */
+.categories li, .archive li {
+  color: #c20000;
+}
+/* line 180, ../sass/hollywood.scss */
+.categories li:hover, .archive li:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* line 189, ../sass/hollywood.scss */
 .free-trial {
   float: right !important;
 }
 
-/* line 183, ../sass/hollywood.scss */
+/* line 193, ../sass/hollywood.scss */
 .free-trial h2 {
   font-size: 32px;
 }
 
-/* line 188, ../sass/hollywood.scss */
+/* line 198, ../sass/hollywood.scss */
 .free-trial ul {
   padding-left: 0px;
 }
-/* line 190, ../sass/hollywood.scss */
+/* line 200, ../sass/hollywood.scss */
 .free-trial ul li {
   list-style: none;
   margin: 10px 0px;
 }
 
-/* line 197, ../sass/hollywood.scss */
+/* line 207, ../sass/hollywood.scss */
 .checkmark {
   background-image: url(../images/check-mark.png);
   height: 20px;
@@ -383,134 +397,134 @@ h1 {
   margin: 10px 10px -2px 0px;
 }
 
-/* line 206, ../sass/hollywood.scss */
+/* line 216, ../sass/hollywood.scss */
 .testimonials {
   margin-bottom: 70px;
 }
 
-/* line 210, ../sass/hollywood.scss */
+/* line 220, ../sass/hollywood.scss */
 .views-field-field-member {
   float: right;
   font-weight: bold;
 }
 
-/* line 216, ../sass/hollywood.scss */
+/* line 226, ../sass/hollywood.scss */
 .view-id-nodequeue_1 ul {
   padding: 0px;
   margin-top: -20px;
 }
-/* line 219, ../sass/hollywood.scss */
+/* line 229, ../sass/hollywood.scss */
 .view-id-nodequeue_1 ul li {
   width: 50%;
   float: left;
 }
 
 /*Overwrite*/
-/* line 228, ../sass/hollywood.scss */
+/* line 238, ../sass/hollywood.scss */
 .grid-wide-4, #block-block-12 {
   width: 33.33333%;
   float: left;
 }
 
 /*Overwrite*/
-/* line 235, ../sass/hollywood.scss */
+/* line 245, ../sass/hollywood.scss */
 .grid-wide-6 {
   width: 48% !important;
   float: left;
 }
 
 /*blog Tweaks MS*/
-/* line 244, ../sass/hollywood.scss */
+/* line 254, ../sass/hollywood.scss */
 .page-node-16 .view-blog .views-row {
   margin-bottom: 50px;
   padding: 0 0.625em;
   padding-bottom: 10px;
 }
-/* line 248, ../sass/hollywood.scss */
+/* line 258, ../sass/hollywood.scss */
 .page-node-16 .view-blog .views-row .views-field-title {
   font-weight: bold;
   font-size: 18px;
   margin: 26% 0 10px;
 }
 
-/* line 255, ../sass/hollywood.scss */
+/* line 265, ../sass/hollywood.scss */
 .views-label-field-tags {
   float: left;
   margin-right: 10px;
   font-style: italic;
 }
 
-/* line 264, ../sass/hollywood.scss */
+/* line 274, ../sass/hollywood.scss */
 #footer {
   background: #222;
   color: #fff;
   font-size: 14px;
   padding: 10px;
 }
-/* line 269, ../sass/hollywood.scss */
+/* line 279, ../sass/hollywood.scss */
 #footer .block {
   margin-bottom: 0;
   padding-top: 0.625em;
   padding-bottom: 0.625em;
 }
-/* line 274, ../sass/hollywood.scss */
+/* line 284, ../sass/hollywood.scss */
 #footer h2 {
   font-size: 18px;
 }
 
-/* line 280, ../sass/hollywood.scss */
+/* line 290, ../sass/hollywood.scss */
 .footer-left ul {
   padding: 0;
 }
-/* line 282, ../sass/hollywood.scss */
+/* line 292, ../sass/hollywood.scss */
 .footer-left ul li {
   list-style: none;
 }
-/* line 285, ../sass/hollywood.scss */
+/* line 295, ../sass/hollywood.scss */
 .footer-left ul a {
   color: #fff;
 }
-/* line 288, ../sass/hollywood.scss */
+/* line 298, ../sass/hollywood.scss */
 .footer-left ul a:hover {
   color: #c20000;
 }
 
-/* line 294, ../sass/hollywood.scss */
+/* line 304, ../sass/hollywood.scss */
 .social-icons {
   padding: 0;
 }
-/* line 296, ../sass/hollywood.scss */
+/* line 306, ../sass/hollywood.scss */
 .social-icons li {
   float: left;
   list-style: none;
 }
-/* line 299, ../sass/hollywood.scss */
+/* line 309, ../sass/hollywood.scss */
 .social-icons li a {
   display: inline-block;
   margin-right: 10px;
   height: 34px;
   width: 31px;
 }
-/* line 305, ../sass/hollywood.scss */
+/* line 315, ../sass/hollywood.scss */
 .social-icons li .youtube {
   background: url(../images/yt.png);
 }
-/* line 308, ../sass/hollywood.scss */
+/* line 318, ../sass/hollywood.scss */
 .social-icons li .facebook {
   background: url(../images/f.png);
 }
-/* line 311, ../sass/hollywood.scss */
+/* line 321, ../sass/hollywood.scss */
 .social-icons li .twitter {
   background: url(../images/t.png);
 }
 
-/* line 317, ../sass/hollywood.scss */
+/* line 327, ../sass/hollywood.scss */
 .footer-mid p {
   line-height: 1.3em;
   margin-bottom: 1em;
 }
 
-/* line 322, ../sass/hollywood.scss */
+/* line 332, ../sass/hollywood.scss */
 footer .block h2.block-title {
   color: #fff;
 }
