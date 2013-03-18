@@ -10,6 +10,10 @@
 
 $red:#c20000;
 
+#page{
+	margin:0 auto;
+}
+
 /*end mixins variables*/
 
 a{
@@ -18,6 +22,7 @@ a{
 	&:hover{color:#000;}
 }
 
+<<<<<<< HEAD
 .button{
 	padding:20px 25px;
 	background-color:$red;
@@ -39,6 +44,10 @@ a{
 
 .block h2.block-title {
 	font-size: 1.5em;
+=======
+h2 {
+	font-size: 2.5em;
+>>>>>>> 0d2f2f729e9e6554da751ede9dc7e4488764d824
 	line-height: 1em;
 	border-bottom: 1px solid #f1f0f0;
 	padding-bottom: 10px;
@@ -110,7 +119,25 @@ header{
 h1{
 	@include hide-text();
 }
+.right-col{
+	float:right;
+}
 
+<<<<<<< HEAD
+//if the block ever take the classes in the form, happily delete
+#block-block-12{
+	@extend .grid-wide-4;
+	@extend .grid-medium-6;
+	@extend .grid-small-2;
+}
+#block-views-blog-block{
+	padding:0;
+}
+.view-blog{
+	.grid-wide-12{
+		padding:0;
+	}
+=======
 
 
 .view-blog .views-row{
@@ -210,4 +237,5 @@ float: left;
 .footer-mid p {
 	line-height:1.3em;
 	margin-bottom:1em;
+>>>>>>> 53c06aa0b52445a0338da4259f6843dc97661ac0
 }
