@@ -27,17 +27,20 @@ li{
 }
 
 .button{
-	padding:20px 25px;
-	background-color:$red;
-	text-align:center;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
 	a{
 		color:#fff;
 		font-size:20px;
+		padding:20px 25px;
+		background-color:$red;
+		text-align:center;
+		display:block;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
 	}
-
+	a:hover {
+		background:#000;
+	}
 }
 
 #page{
@@ -155,12 +158,17 @@ h1{
 	border-radius: 5px;
 	margin:0px 5px;
 	padding-bottom:5px;
+	position:relative;
 	.views-field-field-image{
 		margin:0px -10px;
+		position: absolute;
+		top: 0;
+		width: 100%;
 	}
 	.views-field-title{
 		font-weight: bold;
 		font-size: 18px;
+		margin-top:25%;
 	}
 
 }
@@ -240,7 +248,7 @@ float: left;
 	.views-field-title{
 		font-weight: bold;
 		font-size: 18px;
-		margin:10px 0px
+		margin:26% 0 10px;
 	}
 }
 
@@ -278,7 +286,7 @@ float: left;
 			color:#fff;
 		}
 		a:hover {
-			color:#c20000;
+			color:$red;
 		}
 	}
 }
