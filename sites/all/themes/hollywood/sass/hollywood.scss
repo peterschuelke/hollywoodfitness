@@ -83,6 +83,7 @@ header{
 	@include background(rgba($red,0.6));
 	position:absolute;
 	top:50px;
+	color:#fff;
 }
 
 
@@ -93,6 +94,7 @@ h1{
 	float:right;
 }
 
+<<<<<<< HEAD
 //if the block ever take the classes in the form, happily delete
 #block-block-12{
 	@extend .grid-wide-4;
@@ -106,4 +108,71 @@ h1{
 	.grid-wide-12{
 		padding:0;
 	}
+=======
+
+/*Overwrite*/
+.grid-wide-4 {
+width: 33.33333%;
+//padding: 0 0em;
+float: left;
+}
+
+
+#footer {
+	background:#222;
+	color:#fff;
+	font-size:14px;
+	padding:10px;
+	.block {
+		margin-bottom:0;
+		padding-top:0.625em;
+		padding-bottom:0.625em;
+	}
+	h2 {
+		font-size:18px;
+	}
+}
+
+.footer-left {
+	ul {
+		padding:0;
+		li {
+			list-style:none;
+		}
+		a {
+			color:#fff;
+		}
+		a:hover {
+			color:#c20000;
+		}
+	}
+}
+
+.social-icons {
+	padding:0;
+	li {
+		float:left;
+		list-style:none;
+		a {
+			display:inline-block;
+			margin-right:10px;
+			height:35px;
+			width:31px;
+		}
+		.youtube {
+			background:url(../images/yt.png);
+		}
+		.facebook {
+			background:url(../images/f.png);
+		}
+		.twitter {
+			background:url(../images/t.png);
+		}
+	}
+}
+
+.footer-mid p {
+	line-height:1.3em;
+	margin-bottom:1em;
+>>>>>>> 53c06aa0b52445a0338da4259f6843dc97661ac0
 }
