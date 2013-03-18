@@ -145,7 +145,7 @@ h1{
 }
 
 
-.front .view-blog .views-row{
+.view-blog .views-row{
 	border: 1px solid #f1f0f0;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -199,6 +199,11 @@ h1{
 	margin-bottom: 70px;
 }
 
+.views-field-field-member{
+	float:right;
+	font-weight:bold;
+}
+
 .view-id-nodequeue_1{
 	ul{
 		padding:0px;
@@ -224,6 +229,29 @@ width: 48% !important;
 //padding: 0 0em;
 float: left;
 }
+
+
+/*blog Tweaks MS*/
+
+.page-node-16 .view-blog .views-row{
+	margin-bottom:50px;
+	padding:0 0.625em;
+	padding-bottom:10px;
+	.views-field-title{
+		font-weight: bold;
+		font-size: 18px;
+		margin:10px 0px
+	}
+}
+
+.views-label-field-tags{
+	float:left;
+	margin-right:10px;
+	font-style:italic;
+}
+
+
+
 
 #footer {
 	background:#222;
