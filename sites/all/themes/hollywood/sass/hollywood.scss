@@ -271,6 +271,30 @@ h1{
 	}
 }
 
+.views-field-field-price {
+	font-size:75px;
+	font-weight:bold;
+	position:relative;
+	p {
+		margin:30px 0;
+		padding:20px 0;
+	}
+	.superscript {
+		font-size:32px;
+		position: absolute;
+		top: 0;
+	}
+	.subscript {
+		font-size:16px;
+		position: absolute;
+		bottom: 0;
+	}
+}
+
+#block-block-11 { /*ActivTrax*/
+	margin-top:30px;
+}
+
 .email{
 	width: 65%;
 	height: 40px;
