@@ -74,7 +74,7 @@ header{
 	background:{
 		color:#222222;
 	}
-	height: 70px;
+	min-height: 70px;
 	padding: 5px;
 }
 
@@ -107,7 +107,7 @@ header{
 }
 
 .slide-desc{
-	width:40%;
+	width:400px;
 	padding:0.625em 1.250em;
 	@include background(rgba($red,0.6));
 	position:absolute;
@@ -170,6 +170,7 @@ h1{
 
 .free-trial{
 	float:right !important;
+	margin-top: 30px;
 }
 
 .free-trial h2{
@@ -215,6 +216,27 @@ h1{
 	}
 }
 
+
+.email{
+	width: 65%;
+	height: 40px;
+	padding:5px;
+	float:left;
+	margin-bottom:50px;
+	background-color: #f1f0f0;
+	color:#adb4b9;
+}
+
+.email-action{
+	width: 300px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -27px;
+	font-size:14px;
+	font-style:italic;
+	color:#adb4b9;
+
+}
 
 /*Overwrite*/
 .grid-wide-4 {
