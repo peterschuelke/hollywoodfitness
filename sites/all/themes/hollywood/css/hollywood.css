@@ -290,7 +290,7 @@ header a:first-child {
 
 /* line 109, ../sass/hollywood.scss */
 .slide-desc {
-  width: 40px;
+  width: 400px;
   padding: 0.625em 1.250em;
   background: rgba(194, 0, 0, 0.6);
   position: absolute;
