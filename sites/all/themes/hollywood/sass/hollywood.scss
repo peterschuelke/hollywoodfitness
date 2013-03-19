@@ -23,6 +23,7 @@ $red:#c20000;
 
 #page{
 	margin:0 auto;
+	max-width:100%;
 }
 
 /*end mixins variables*/
@@ -111,7 +112,7 @@ header{
 .region-hero{
 	width:100%;
 	height:27.750em;
-	margin-top:-2px;
+	margin-top:-24px;
 	z-index: -11;
 
 	background:{
@@ -167,24 +168,12 @@ h1{
 	-moz-box-shadow:    1px 1px 3px rgba(50, 50, 50, 0.34);
 	box-shadow:         1px 1px 3px rgba(50, 50, 50, 0.34);
 	border-radius: 5px;
-	margin:0px 5px;
 	padding-bottom:5px;
-	.views-field-field-image{
-		margin:0px -10px;
-	}
 	.views-field-title{
 		font-weight: bold;
 		font-size: 18px;
 	}
 
-}
-
-
-
-
-.free-trial{
-	float:right !important;
-	margin-top: 30px;
 }
 
 .free-trial h2{
@@ -251,21 +240,6 @@ h1{
 	color:#adb4b9;
 
 }
-
-/*Overwrite*/
-.grid-wide-4 {
-width: 33.33333%;
-//padding: 0 0em;
-float: left;
-}
-
-/*Overwrite*/
-.grid-wide-6 {
-width: 48% !important;
-//padding: 0 0em;
-float: left;
-}
-
 
 /*blog Tweaks MS*/
 
