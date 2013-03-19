@@ -255,7 +255,7 @@ header a:first-child {
 /* line 73, ../sass/hollywood.scss */
 #navigation {
   background-color: #222222;
-  min-height: 70px;
+  height: 70px;
   padding: 5px;
 }
 
@@ -290,7 +290,7 @@ header a:first-child {
 
 /* line 109, ../sass/hollywood.scss */
 .slide-desc {
-  width: 400px;
+  width: 40px;
   padding: 0.625em 1.250em;
   background: rgba(194, 0, 0, 0.6);
   position: absolute;
