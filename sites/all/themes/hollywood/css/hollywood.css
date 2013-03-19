@@ -1,9 +1,9 @@
 /*
 Syntax error: Invalid CSS after "}": expected "}", was ""
-        on line 393 of C:/xampp/htdocs/wdim-dev/hollywoodfitness/sites/all/themes/hollywood/sass/hollywood.scss
+        on line 376 of C:/xampp/htdocs/wdim-dev/hollywoodfitness/sites/all/themes/hollywood/sass/hollywood.scss
 
 Backtrace:
-C:/xampp/htdocs/wdim-dev/hollywoodfitness/sites/all/themes/hollywood/sass/hollywood.scss:393
+C:/xampp/htdocs/wdim-dev/hollywoodfitness/sites/all/themes/hollywood/sass/hollywood.scss:376
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.6/lib/sass/scss/parser.rb:1148:in `expected'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.6/lib/sass/scss/parser.rb:1084:in `expected'
 C:/Ruby193/lib/ruby/gems/1.9.1/gems/sass-3.2.6/lib/sass/scss/parser.rb:1079:in `tok!'
@@ -57,4 +57,4 @@ C:/Ruby193/bin/compass:23:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 393 of C:/xampp/htdocs/wdim-dev/hollywoodfitness/sites/all/themes/hollywood/sass/hollywood.scss"; }
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 376 of C:/xampp/htdocs/wdim-dev/hollywoodfitness/sites/all/themes/hollywood/sass/hollywood.scss"; }
