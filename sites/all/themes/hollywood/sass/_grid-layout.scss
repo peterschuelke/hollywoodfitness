@@ -50,6 +50,7 @@ $gutter:20px;
     padding-left:0;
   }
   @include create_columns('small',$break-small, $column-count-small);
+
 }
 
 //Medium Screen
@@ -58,6 +59,8 @@ $gutter:20px;
     @include content-width($break-medium);
   }
   @include create_columns('medium',$break-medium, $column-count-medium);
+
+  
 }
 
 //Wide Screen

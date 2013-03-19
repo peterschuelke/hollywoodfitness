@@ -27,20 +27,17 @@ li{
 }
 
 .button{
+	padding:20px 25px;
+	background-color:$red;
+	text-align:center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
 	a{
 		color:#fff;
 		font-size:20px;
-		padding:20px 25px;
-		background-color:$red;
-		text-align:center;
-		display:block;
-		-webkit-border-radius: 5px;
-		-moz-border-radius: 5px;
-		border-radius: 5px;
 	}
-	a:hover {
-		background:#000;
-	}
+
 }
 
 #page{
@@ -110,7 +107,7 @@ header{
 }
 
 .slide-desc{
-	width:40%;
+	width:400px;
 	padding:0.625em 1.250em;
 	@include background(rgba($red,0.6));
 	position:absolute;
@@ -158,50 +155,22 @@ h1{
 	border-radius: 5px;
 	margin:0px 5px;
 	padding-bottom:5px;
-	position:relative;
 	.views-field-field-image{
 		margin:0px -10px;
-		position: absolute;
-		top: 0;
-		width: 100%;
-		max-height:150px;
 	}
-}
-
-.categories, .archive { /*fake links*/
-	li {
-		color:$red;
-	}
-	li:hover {
-		color:#000;
-		text-decoration:underline;
-	}
-}
-
-
-.page-node-16 .view-blog .views-row{
-	margin-bottom:50px;
-	padding:0 0.625em;
-	padding-bottom:10px;
 	.views-field-title{
 		font-weight: bold;
 		font-size: 18px;
-		margin:26% 0 10px;
 	}
+
 }
 
-.views-field-field-tags {
-	font-style:italic;
-}
-.views-label-field-tags{
-	float:left;
-	margin-right:10px;
-}
 
 
 
 .free-trial{
 	float:right !important;
+	margin-top: 30px;
 }
 
 .free-trial h2{
@@ -297,9 +266,27 @@ h1{
 			background:#000;
 		}
 	}
+
+.email{
+	width: 65%;
+	height: 40px;
+	padding:5px;
+	float:left;
+	margin-bottom:50px;
+	background-color: #f1f0f0;
+	color:#adb4b9;
 }
 
+.email-action{
+	width: 300px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -27px;
+	font-size:14px;
+	font-style:italic;
+	color:#adb4b9;
 
+}
 
 /*Overwrite*/
 .grid-wide-4 {
@@ -314,6 +301,27 @@ width: 48% !important;
 //padding: 0 0em;
 float: left;
 }
+
+
+/*blog Tweaks MS*/
+
+.page-node-16 .view-blog .views-row{
+	margin-bottom:50px;
+	padding:0 0.625em;
+	padding-bottom:10px;
+	.views-field-title{
+		font-weight: bold;
+		font-size: 18px;
+		margin:10px 0px
+	}
+}
+
+.views-label-field-tags{
+	float:left;
+	margin-right:10px;
+	font-style:italic;
+}
+
 
 
 
@@ -342,7 +350,7 @@ float: left;
 			color:#fff;
 		}
 		a:hover {
-			color:$red;
+			color:#c20000;
 		}
 	}
 }
@@ -377,4 +385,8 @@ float: left;
 
 footer .block h2.block-title{
 	color:#fff;
+}
+
+.view-membership{
+
 }
