@@ -7,6 +7,17 @@
 		overflow: hidden;
 	text-align: left;
 }
+/*@extend this class by adding to any called style*/
+.clearfix {
+  &:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0;
+  }
+}
 
 $red:#c20000;
 
